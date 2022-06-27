@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css"/>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Treasure map</title>
-</head>
-<body>
-    
-    <h1>Fin the treasure</h1>
-
-    <img id="map" src="./assets/img/map.png" alt="map-treasure"/>
+  </head>
+  <body>
+    <div id="map">
+    <h1>Encuentra el tesoro</h1>
+    <img src="./assets/img/map.png" alt="map-treasure" />
     <p id="distance"></p>
-
+  </div>
+    <div class="img-treasure">
+      <img id="cold" src="./assets/gifs/cold.gif" alt="cold" />
+      <img id="very-cold" src="./assets/gifs/veryCold.gif" alt="very-cold"/>
+      <img id="frozen" src="./assets/gifs/frozen.gif" alt="hot"/>
+      <img id="warm" src="./assets/gifs/warm.gif" alt="warm">
+      <img id="hot" src="./assets/gifs/hot.gif" alt="hot"/>
+      <img id="burn" src="./assets/gifs/burn.gif" alt="burn">
+    </div>
     <script src="./js/helpers.js"></script>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
