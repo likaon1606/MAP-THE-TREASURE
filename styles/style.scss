@@ -14,7 +14,12 @@ body {
     margin-top: -7%;
     flex-direction: column;
 }
-
+#congratulations{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+}
 #map img {
     width: 1000px;
     height: 400px;
@@ -41,6 +46,13 @@ h1 {
 p {
     visibility: hidden;
 }
+input {
+    font-size: 150%;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
 @media only screen and (min-width: 340px) and (max-width: 768px){
     #map img {
         width: 95%;
@@ -52,10 +64,11 @@ p {
         text-align: center;
     }
     .img-treasure img{
-        margin-top: 9%;
+        margin-top: 20%;
         width: 50%;
         margin-left: -25%;
     }
+   
   
 
 }

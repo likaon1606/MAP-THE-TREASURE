@@ -23,8 +23,16 @@ $map.addEventListener('click', (e) => {
     $distance.innerHTML = `<h1>${distanceHint}</h1>`;
 
     if ( distance < 20 ) {
-        alert(`Encontraste el tesoro en: ${clicks} clicks.`)
-        location.reload(); //refresh page
+        (document.getElementById("congratulations").style.visibility = "visible"), "felicidades" &
+        (document.getElementById("cold").style.visibility = "hidden") &
+        (document.getElementById("frozen").style.visibility = "hidden") &
+        (document.getElementById("warm").style.visibility = "hidden") &
+        (document.getElementById("hot").style.visibility = "hidden") &
+        (document.getElementById("burn").style.visibility = "hidden") &
+        (document.getElementById("very-cold").style.visibility = "hidden");
+        alert(`Encontraste el tesoro en: ${clicks} clicks.`);
+        // location.reload('click') //refresh page
+        
     }
 });
 
