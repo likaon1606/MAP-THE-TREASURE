@@ -40,7 +40,7 @@ h1 {
 p {
     visibility: hidden;
 }
-@media only screen and (min-width: 340px){
+@media only screen and (min-width: 340px) and (max-width: 768px){
     #map img {
         width: 95%;
         height: 95%;
